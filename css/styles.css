@@ -511,15 +511,24 @@ header {
   fill: #f4f4fd;
 }
 
+.foter-subscribe-container {
+  margin-left: 80px;
+}
+
 .form {
   display: flex;
   flex-direction: column;
 }
 
-.form-label {
-  display: inline;
+.form-paragraf {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02px;
+  margin-bottom: 16px;
 }
-
 /*===================*/
 
 /*==general-set==*/
