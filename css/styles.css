@@ -60,15 +60,13 @@ header {
 }
 
 .studio-sub-menu:hover,
-.studio-sub-menu:focus{
+.studio-sub-menu:focus {
   color: #404bbf;
 }
 
-.studio-sub-menu:link{
+.studio-sub-menu:link {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-
 
 .studio-sub-menu.current {
   color: #404bbf;
@@ -101,9 +99,8 @@ header {
 }
 
 .adress-data:hover,
-.adress-data:focus{
+.adress-data:focus {
   color: #404bbf;
-  
 }
 
 .top-line .container {
@@ -254,7 +251,6 @@ header {
   background: #f4f4fd;
   height: 112px;
   flex-shrink: 0;
-  
 }
 /*===================*/
 
@@ -308,7 +304,6 @@ header {
 .card-info {
   padding: 32px 0;
   text-align: center;
-  
 }
 
 .profesion {
@@ -514,6 +509,15 @@ header {
 
 .icon-soc-link {
   fill: #f4f4fd;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  display: inline;
 }
 
 /*===================*/
