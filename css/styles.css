@@ -532,6 +532,7 @@ header {
 
 .email-input {
   background: #2e2f42;
+  color: color: #ffffff;;
   width: 264px;
   height: 40px;
   flex-shrink: 0;
@@ -552,7 +553,7 @@ header {
   justify-content: center;
   align-items: center;
   gap: 16px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
 }
 
