@@ -532,7 +532,7 @@ header {
 
 .email-input {
   background: #2e2f42;
-  color: color: #ffffff;;
+  color: color: #ffffff;
   width: 264px;
   height: 40px;
   flex-shrink: 0;
@@ -545,6 +545,11 @@ header {
   letter-spacing: 0.04em;
   padding-left: 16px;
 }
+
+input::placeholder {
+	color: #ffffff;
+}
+
 .subscribe-btn {
   border-radius: 4px;
   background: #4d5ae5;
