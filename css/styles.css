@@ -559,12 +559,18 @@ input::placeholder {
    line-height: 1.5;
    letter-spacing: 0.04em;
    color: #ffffff;
+   border: none; 
    cursor: pointer;
   justify-content: center;
   align-items: center;
   gap: 16px;
   min-width: 165px;
   height: 40px;
+}
+
+.subscribe-svg{
+  color: #ffffff;
+  margin-left: 16px;
 }
 
 /*===================*/
