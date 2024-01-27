@@ -546,7 +546,7 @@ header {
   padding-left: 16px;
 }
 
-input::placeholder {
+.email-input::placeholder {
   color: #ffffff;
 }
 
