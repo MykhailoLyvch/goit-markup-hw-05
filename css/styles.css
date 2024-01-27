@@ -532,7 +532,7 @@ header {
 
 .email-input {
   background-color: #2e2f42;
-  color: color: #ffffff;
+  color: #ffffff;
   width: 264px;
   height: 40px;
   flex-shrink: 0;
@@ -547,7 +547,7 @@ header {
 }
 
 input::placeholder {
-	color: #ffffff;
+  color: #ffffff;
 }
 
 .subscribe-btn {
@@ -555,12 +555,12 @@ input::placeholder {
   background: #4d5ae5;
   display: inline-flex;
   padding: 8px 24px;
-   font-weight: 500;
-   line-height: 1.5;
-   letter-spacing: 0.04em;
-   color: #ffffff;
-   border: none; 
-   cursor: pointer;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
   justify-content: center;
   align-items: center;
   gap: 16px;
@@ -568,7 +568,7 @@ input::placeholder {
   height: 40px;
 }
 
-.subscribe-svg{
+.subscribe-svg {
   color: #ffffff;
   margin-left: 16px;
 }
