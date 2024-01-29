@@ -623,36 +623,38 @@ header {
   width: 100%;
   height: 100%;
   background-color: rgba(46, 47, 66, 0.4);
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-window{
+.modal-window {
   display: column;
-position: absolute;
-top: 50%;
-left: 50%;
-padding: 72px 24px 24px 24px;
-transform: translate(-50%, -50%) scale(1);
-width: 408px;
-min-height: 584px;
-flex-shrink: 0;
-background: #fcfcfc;
-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
-border-radius: 4px;
-transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 72px 24px 24px 24px;
+  transform: translate(-50%, -50%) scale(1);
+  width: 408px;
+  min-height: 584px;
+  flex-shrink: 0;
+  background: #fcfcfc;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-paragraf-haed {
-  color: #2E2F42;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    margin-bottom: 16px;
+  color: #2e2f42;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
 }
 
-.modal-form-container{
+.modal-form-container {
   margin-bottom: 8px;
 }
 
@@ -665,25 +667,24 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: #8e8f99;
 }
 
-.input-container{
+.input-container {
   position: relative;
 }
 
 .modal-input {
-width: 100%;
-height: 40px;
-border: 1px solid rgba(46, 47, 66, 0.4);
-border-radius: 4px;
-background-color: transparent;
-padding-left: 38px;
-outline: transparent;
-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  background-color: transparent;
+  padding-left: 38px;
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-input:focus{
-border-color: #4D5AE5;
+.modal-input:focus {
+  border-color: #4d5ae5;
 }
-
 
 .btn-close {
   width: 24px;
@@ -695,13 +696,13 @@ border-color: #4D5AE5;
   display: flex;
   padding: 0;
   cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   align-items: center;
   justify-content: center;
   background-color: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  color: #FFFFFF;
-
+  color: #ffffff;
 }
 
 .btn-close:hover,
@@ -711,95 +712,96 @@ border-color: #4D5AE5;
 }
 
 .btn-close:hover,
-.btn-close:focus{
+.btn-close:focus {
   fill: #ffffff;
 }
 
-.icon-modal{
-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-position: absolute;
-left: 16px;
-top: 50%;
-transform: translateY(-50%);
+.icon-modal {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
-.modal-input:focus + icon-modal{
-fill: #4D5AE5;
+.modal-input:focus + icon-modal {
+  fill: #4d5ae5;
 }
 
-
-.modal-form-comment{
+.modal-form-comment {
   margin-bottom: 16px;
 }
 
 .modal-textarea {
-width: 100%;
-height: 120px;
-font-size: 12px;
-line-height: 1.17;
-letter-spacing: 0.04em;
-border-radius: 4px;
-padding: 8px 16px;
-outline: transparent;
-resize: none;
-background-color: transparent;
-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-color: rgba(46, 47, 66, 0.4);
-border: 1px solid rgba(46, 47, 66, 0.4)
+  width: 100%;
+  height: 120px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  border-radius: 4px;
+  padding: 8px 16px;
+  outline: transparent;
+  resize: none;
+  background-color: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: rgba(46, 47, 66, 0.4);
+  border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
-.modal-textarea:focus{
-border-color: #4D5AE5;
+.modal-textarea:focus {
+  border-color: #4d5ae5;
 }
 
-.modal-form-checkbox{
+.modal-form-checkbox {
   margin-bottom: 24px;
 }
 
-.privacy-label{
+.privacy-label {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
 
-.privacy-span{
+.privacy-span {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
 }
 
-.privacy-link{
+.privacy-link {
   color: #4d5ae5;
 }
 
-.visually-hidden:checked + span {
-  background-color:#404bbf;
+.input-checkbox:checked + .privacy-label .privacy-span {
+  background-color: #404bbf;
   border: none;
-  fill: #F4F4FD;;
+  fill: #f4f4fd;
 }
 
-.btn-send{
-display: block;
-margin: auto;
-min-width: 169px;
-height: 56px;
-font-family: "Roboto", sans-serif; 
-font-size: 16px; 
-font-weight: 500; 
-line-height: 1.5; 
-letter-spacing: 0.04em; 
-color: #ffffff; 
-cursor: pointer;
-background-color: #4D5AE5; 
-border: none;
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.btn-send {
+  display: block;
+  margin: auto;
+  min-width: 169px;
+  height: 56px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*===================*/
