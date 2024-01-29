@@ -781,7 +781,7 @@ header {
   color: #4d5ae5;
 }
 
-.input-checkbox:checked .privacy-label + .privacy-span {
+.visually-hidden:checked + .privacy-label .privacy-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
