@@ -779,9 +779,15 @@ border-color: #4D5AE5;
   color: #4d5ae5;
 }
 
+input[type="checkbox"]:checked .privacy-span {
+  background-color:#404bbf;
+  border: none;
+  fill: #F4F4FD;;
+}
 
 .btn-send{
 display: block;
+margin: auto;
 min-width: 169px;
 height: 56px;
 font-family: "Roboto", sans-serif; 
