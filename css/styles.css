@@ -724,7 +724,7 @@ header {
   transform: translateY(-50%);
 }
 
-.modal-input:focus .icon-modal {
+.modal-input:focus + .icon-modal {
   fill: #4d5ae5;
 }
 
