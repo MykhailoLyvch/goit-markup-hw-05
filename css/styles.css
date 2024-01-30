@@ -550,7 +550,7 @@ header {
 }
 
 .foter-subscribe-container {
-  margin-left: 80px;
+  margin-left: auto;
 }
 
 .form {
@@ -601,7 +601,6 @@ header {
   cursor: pointer;
   justify-content: center;
   align-items: center;
-  gap: 16px;
   min-width: 165px;
   height: 40px;
 }
@@ -656,6 +655,7 @@ header {
 
 .modal-form-container {
   margin-bottom: 8px;
+  font-size: 12px;
 }
 
 .label {
@@ -785,6 +785,10 @@ header {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
+}
+
+.input-checkbox:focus+.privacy-label .privacy-span {
+  border-color: #4D5AE5;
 }
 
 .btn-send {
