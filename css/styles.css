@@ -754,13 +754,21 @@ header {
 
 .modal-form-checkbox {
   margin-bottom: 24px;
+  
 }
 
+.modal-form-checkbox + .input-checkbox .privacy-label{
+margin-right: 8px;
+}
+
+
 .privacy-label {
+
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  
 }
 
 .privacy-span {
@@ -775,6 +783,7 @@ header {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 
 .privacy-link {
