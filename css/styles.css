@@ -624,6 +624,9 @@ header {
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
 
 .modal-window {
@@ -754,21 +757,17 @@ header {
 
 .modal-form-checkbox {
   margin-bottom: 24px;
-  
 }
 
-.modal-form-checkbox + .input-checkbox .privacy-label{
-margin-right: 8px;
+.modal-form-checkbox + .input-checkbox .privacy-label {
+  margin-right: 8px;
 }
-
 
 .privacy-label {
-
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  
 }
 
 .privacy-span {
@@ -796,8 +795,8 @@ margin-right: 8px;
   fill: #f4f4fd;
 }
 
-.input-checkbox:focus+.privacy-label .privacy-span {
-  border-color: #4D5AE5;
+.input-checkbox:focus + .privacy-label .privacy-span {
+  border-color: #4d5ae5;
 }
 
 .btn-send {
@@ -817,4 +816,9 @@ margin-right: 8px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-window-container .is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
 /*===================*/
