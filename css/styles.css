@@ -558,10 +558,6 @@ header {
   gap: 24px;
 }
 
-.icon-modal-close {
-  transition: transform translateY(-50%);
-}
-
 .form-paragraf {
   color: #fff;
   font-family: Roboto;
@@ -741,8 +737,16 @@ header {
   transform: translateY(-50%);
 }
 
+.icon-modal-close {
+  transition: transform translateY(-50%);
+}
+
 .modal-input:focus + .icon-modal {
   fill: #4d5ae5;
+}
+
+.icon-modal-close {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-comment {
