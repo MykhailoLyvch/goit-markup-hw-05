@@ -558,6 +558,10 @@ header {
   gap: 24px;
 }
 
+.icon-modal-close {
+  transition: transform translateY(-50%);
+}
+
 .form-paragraf {
   color: #fff;
   font-family: Roboto;
@@ -604,6 +608,10 @@ header {
   min-width: 165px;
   height: 40px;
 }
+.subscribe-btn:focus,
+.subscribe-btn:hover {
+  background-color: #404bbf;
+}
 
 .subscribe-svg {
   color: #ffffff;
@@ -624,9 +632,12 @@ header {
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
 
-.modal-window-container .is-open {
+.modal-window-container.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
@@ -816,7 +827,13 @@ header {
   cursor: pointer;
   background-color: #4d5ae5;
   border: none;
+  border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-send:hover,
+.btn-send:focus {
+  background-color: #404bbf;
 }
 
 /*===================*/
