@@ -629,6 +629,12 @@ header {
   pointer-events: none;
 }
 
+.modal-window-container .is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
 .modal-window {
   display: column;
   position: absolute;
@@ -722,7 +728,7 @@ header {
 .icon-modal {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   position: absolute;
-  left: 7.5px;
+  left: 16px;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -816,9 +822,4 @@ header {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-window-container .is-open {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
-}
 /*===================*/
