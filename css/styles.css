@@ -603,6 +603,7 @@ header {
   align-items: center;
   min-width: 165px;
   height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .subscribe-btn:focus,
 .subscribe-btn:hover {
@@ -735,10 +736,6 @@ header {
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
-}
-
-.icon-modal-close {
-  transition: transform translateY(-50%);
 }
 
 .modal-input:focus + .icon-modal {
